@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shriya's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <nav class="navigation">
+        <div class="navigation-logo">
+          <a href="./index.html">
+            <!-- <img class="home-icon" src="./assets/HomeIcon.png" alt="" /> -->
+          </a>
+        </div>
+      </nav>
+
+      <div class="nav_menu">
+        <div class="menu">
+          <ul class="nav-list">
+            <li class="nav__item">
+              <button class="btn" id="button1">
+                <a href="#home" class="clicked nav__link active-link">Home</a>
+              </button>
+            </li>
+            <li class="nav__item">
+              <button class="btn" id="button2">
+                <a href="#about" class="nav__link">About</a>
+              </button>
+            </li>
+            <li class="nav__item">
+              <button>
+                <a
+                  
+                  class="nav__link"
+                  style="text-align: center"
+                  >Projects</a
+                >
+              </button>
+            </li>
+            <li class="nav__item">
+              <button>
+                <a
+                  
+                  class="nav__link"
+                  style="text-align: center"
+                  >PORs</a
+                >
+              </button>
+            </li>
+            <li class="nav__item">
+              <button>
+                <a
+                  
+                  class="nav__link"
+                  style="text-align: center"
+                  >Bio</a
+                >
+              </button>
+            </li>
+            <div class="btn__share">
+              <i class="uil uil-share-alt social__share"></i>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <!--========== MAIN ==========-->
+    <main class="main">
+      <!--===== Home =====-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__social">
+            <span class="home__social-follow"> Follow Me </span>
+            <div class="home__social-links">
+              <a
+                href="https://www.linkedin.com/in/shriya-surya/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/shriya_surya/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- <img src="assets/img/home-img.png" alt="" class="home__img"> -->
+
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Shriya Surya!</h1>
+            <h3 class="home__subtitle">
+              Competetive Programmer, Frontend Developer, and UI/UX Designer
+            </h3>
+            <p class="home__description">
+              I'm currently a sophmore, pursuing B.Tech in Electronics and
+              Communication Engineering at IIT Guwahati.
+            </p>
+            <a href="#about" class="button" id="button3">
+              <i class="uil uil-user button__icon"></i>
+              More About me
+            </a>
+            <!-- <iframe
+              src="https://discord.com/widget?id=881979196124049458&theme=dark"
+              width="350"
+              height="500"
+              allowtransparency="true"
+              frameborder="0"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+            ></iframe> -->
+          </div>
+
+          <div class="my__info">
+            <div class="info__item">
+              <i class="uil uil-whatsapp info__icon"></i>
+
+              <div>
+                <h3 class="info__title">Whatsapp</h3>
+                <span class="info__subtitle"> 7019493506 </span>
+              </div>
+            </div>
+
+            <div class="info__item">
+              <i class="uil uil-instagram info__icon"></i>
+
+              <div>
+                <h3 class="info__title">Instagram</h3>
+                <span class="info__subtitle"> shriya_surya </span>
+              </div>
+            </div>
+
+            <div class="info__item">
+              <i class="uil uil-envelope-check info__icon"></i>
+
+              <div>
+                <h3 class="info__title">Email</h3>
+                <span class="info__subtitle">
+                  s.shriya@iitg.ac.in
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== About =====-->
+      <section class="about section" id="about">
+        <h2 data-heading="Get to Know Me" class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img
+            src="assets/img/about-img.png"
+            class="spiderman img"
+            alt=""
+            class="about__img"
+          />
+
+          <div class="about__data">
+            <h3 class="about__heading">
+              Hi! I'm Shriya Surya, and I'm located in Bangalore, India.
+            </h3>
+            <p class="about__description">
+              I'm a student embarking on my journey into the realm of computer
+              science and development. With an intense passion for programming,
+              I aspire to become a proficient developer, eager to explore the
+              endless possibilities that technology offers. I am driven by a
+              relentless curiosity to innovate and create solutions that shape
+              the future.
+            </p>
+            <div class="about__info grid">
+              <div class="about__box">
+                <i class="uil uil-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">Highlights</span>
+              </div>
+
+              <div class="about__box">
+                <i class="uil uil-user about__icon"></i>
+                <h3 class="about__title">Personal Bio</h3>
+                <span class="about__subtitle">Learn more</span>
+              </div>
+
+              <!-- <div class="about__box">
+                <i class="uil uil-headphones-alt about__icon"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle"> Online 24/7 </span>
+              </div> -->
+            </div>
+
+            <a href="https://wa.me/7019493506" class="button" id="button4">
+              <i class="uil uil-navigator button__icon"></i>
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <script src="./index.js"></script>
+    </footer>
+  </body>
+</html>
